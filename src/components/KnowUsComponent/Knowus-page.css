@@ -1,0 +1,64 @@
+@import url("../../css/normalize.css");
+
+#know-us-article {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5% 10% 0 10%;
+}
+#about-us-heading-container {
+  background-image: url("../../images/ECommerce.png");
+  width: auto;
+  height: 421px !important;;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  flex-direction: inherit;
+  justify-content: flex-start;
+  margin: 0 0 1rem 0;
+}
+#about-us-heading {
+  background-color: #4d626ea8;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.know-us-section p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+@media screen and (min-width: 600px) {
+  #about-us-heading-container,
+  #vision-heading-container,
+  #mission-heading-container,
+  #faq-heading-container {
+    height: 120px;
+  }
+  #about-us-heading,
+  #vision-heading,
+  #mission-heading,
+  #faq-heading {
+    font-size: 55px;
+  }
+  #know-us-article {
+    margin: 2.5% 10% 0 10%;
+  }
+  .know-us-section h2 {
+    font-size: 40px;
+
+    margin-bottom: 15px;
+  }
+
+  .know-us-section p {
+    font-size: 25px;
+    margin-bottom: 15px;
+    line-height: 150%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #know-us-article {
+    margin: 2.5% 20% 0 20%;
+  }
+}

@@ -1,0 +1,10 @@
+@import url("../../css/normalize.css");
+.banner {
+ 
+  height: 50vh;
+  background: url("../../images/photo.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
